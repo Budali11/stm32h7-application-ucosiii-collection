@@ -1,0 +1,1438 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 27 22:12:18 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 129)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# makefile (from 'Makefile', line 209)
+LIBDIR = 
+# environment
+LC_ALL = C
+# environment
+EIDE_BINARIES_VER = 8.3.0
+# environment
+USERPROFILE = C:\Users\HaoNan
+# environment
+VBOX_MSI_INSTALL_PATH = G:\VIRTUAL\
+# environment
+LOCALAPPDATA = C:\Users\HaoNan\AppData\Local
+# environment
+VSCODE_CWD = F:\Cubemx\PRJ\ucos_test
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'Makefile', line 208)
+LIBS = -lc -lm -lnosys 
+# makefile (from 'Makefile', line 185)
+C_INCLUDES = -ICore/Inc -IDrivers/STM32H7xx_HAL_Driver/Inc -IDrivers/STM32H7xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32H7xx/Include -IDrivers/CMSIS/Include $(UCOS_INCLUDES)
+# environment
+PROCESSOR_LEVEL = 23
+# makefile (from 'Makefile', line 131)
+SZ = $(PREFIX)size
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make
+# environment
+CUDA_PATH_V10_0 = F:\Deep_learn\CUDA\NVIDIA GPU Computing Toolkit\CUDA\v10.0
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 156)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32H750xx
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16512_HFWZIDXWFXOYIVXP
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\HaoNan\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# makefile (from 'Makefile', line 153)
+AS_DEFS = 
+# environment
+LANG = C
+# environment
+GCC_BASE = I:\MCU\arm_tool_chain
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/HaoNan/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\十七岁浩南\OneDrive
+# makefile
+CURDIR := /cygdrive/f/Cubemx/PRJ/ucos_test
+# makefile (from 'Makefile', line 133)
+HEX = $(CP) -O ihex
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 205)
+LDSCRIPT = STM32H750VBTx_FLASH.ld
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# makefile (from 'Makefile', line 188)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 16512
+# environment
+CUDA_PATH = F:\Deep_learn\CUDA\NVIDIA GPU Computing Toolkit\CUDA\v11.1
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 162)
+AS_INCLUDES = 
+# makefile (from 'Makefile', line 130)
+CP = $(PREFIX)objcopy
+# automatic
+*F = $(notdir $*)
+# environment
+EIDE_TOOL_GCC_ARM = I:\MCU\GNU_tools_ARM\bin
+# environment
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_translationsConfigFile":"C:\\Users\\HaoNan\\AppData\\Roaming\\Code\\clp\\cc0490d1397af23dc5bf44a96fe15dbb.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\HaoNan\\AppData\\Roaming\\Code\\clp\\cc0490d1397af23dc5bf44a96fe15dbb.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\HaoNan\\AppData\\Roaming\\Code\\clp\\cc0490d1397af23dc5bf44a96fe15dbb.zh-cn\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\HaoNan\\AppData\\Roaming\\Code\\clp\\cc0490d1397af23dc5bf44a96fe15dbb.zh-cn\\corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# makefile (from 'Makefile', line 68)
+UCOS_SOURCES = ucos/bsp/bsp_clk.c ucos/bsp/bsp_cpu.c ucos/bsp/bsp_led.c ucos/bsp/bsp_os.c ucos/ucos_config/os3/os_app_hooks.c ucos/ucos_cpu/cpu_core.c ucos/ucos_cpu/ARM-Cortex-M4/GNU/cpu_c.c ucos/ucos_lib/lib_ascii.c ucos/ucos_lib/lib_math.c ucos/ucos_lib/lib_mem.c ucos/ucos_lib/lib_str.c ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU/os_cpu_c.c ucos/ucos_source/os_cfg_app.c ucos/ucos_source/os_core.c ucos/ucos_source/os_dbg.c ucos/ucos_source/os_flag.c ucos/ucos_source/os_mem.c ucos/ucos_source/os_mon.c ucos/ucos_source/os_msg.c ucos/ucos_source/os_mutex.c ucos/ucos_source/os_prio.c ucos/ucos_source/os_q.c ucos/ucos_source/os_sem.c ucos/ucos_source/os_stat.c ucos/ucos_source/os_task.c ucos/ucos_source/os_time.c ucos/ucos_source/os_tick.c ucos/ucos_source/os_tmr.c ucos/ucos_source/os_var.c 
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\HaoNan
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /cygdrive/c/Program Files/Common Files/Oracle/Java/javapath:/cygdrive/f/Deep_learn/CUDA/NVIDIA GPU Computing Toolkit/CUDA/v11.1/bin:/cygdrive/f/Deep_learn/CUDA/NVIDIA GPU Computing Toolkit/CUDA/v11.1/libnvvp:/cygdrive/f/Deep_learn/CUDA/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/cygdrive/f/Deep_learn/CUDA/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/f/Matlab1/bin:/cygdrive/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/cygdrive/f/Xshell:/cygdrive/c/Users/HaoNan/AppData/Local/Programs/Python/Python310/Scripts:/cygdrive/c/Users/HaoNan/AppData/Local/Programs/Python/Python310:/cygdrive/f/Deep_learn/Anaconda/Scripts:/cygdrive/f/Deep_learn/Anaconda:/cygdrive/f/Deep_learn/Anaconda/Library/bin:/cygdrive/c/Program Files/NVIDIA Corporation/Nsight Compute 2020.2.1:/cygdrive/f/Deep_learn/CUDA/NVIDIA GPU Computing Toolkit/CUDA/v11.1/extras/CUPTI/lib64:/cygdrive/f/Deep_learn/CUDA/NVIDIA GPU Computing Toolkit/CUDA/v11.1/cudnn/bin:/cygdrive/f/RT-Thread_QEMU/env/tools/qemu/qemu32:/cygdrive/f/Git/Git/cmd:/cygdrive/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/cygdrive/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/cygdrive/c/Program Files/Microsoft SQL Server/120/Tools/Binn:/cygdrive/c/Program Files/Microsoft SQL Server/120/DTS/Binn:/cygdrive/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/cygdrive/c/Program Files/dotnet:/cygdrive/i/MCU/GNU_tools_ARM/bin:/cygdrive/f/Deep_learn/Anaconda:/cygdrive/f/Deep_learn/Anaconda/Library/mingw-w64/bin:/cygdrive/f/Deep_learn/Anaconda/Library/usr/bin:/cygdrive/f/Deep_learn/Anaconda/Library/bin:/cygdrive/f/Deep_learn/Anaconda/Scripts:/cygdrive/c/Users/HaoNan/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Bandizip:/cygdrive/f/Deep_learn/pycharm/PyCharm Community Edition 2021.3.3/bin:/cygdrive/f/Deep_learn/pycharm/PyCharm 2021.3.3/bin:/cygdrive/c/Users/HaoNan/AppData/Local/GitHubDesktop/bin:/cygdrive/i/MCU/Openocd/INSTALL/bin:/usr/bin:/cygdrive/f/vs code/Microsoft VS Code/Microsoft VS Code/bin:/cygdrive/c/Users/HaoNan/.eide/bin/builder/bin:/cygdrive/c/Users/HaoNan/.eide/bin/builder/utils:/cygdrive/c/Users/HaoNan/.eide/bin/scripts:/cygdrive/i/MCU/GNU_tools_ARM/bin:/cygdrive/i/MCU/Openocd/INSTALL/bin:/cygdrive/c/Users/HaoNan/.eide/bin/builder/msys/bin
+# environment
+COMPUTERNAME = DESKTOP-MMIO2D6
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+SW_SIM_MPIT = INTELMPI
+# makefile (from 'Makefile', line 143)
+FPU = -mfpu=fpv5-d16
+# environment
+PYCHARM = F:\Deep_learn\pycharm\PyCharm 2021.3.3\bin;
+# makefile (from 'Makefile', line 146)
+FLOAT-ABI = -mfloat-abi=hard
+# environment
+PROMPT = $P$G
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# makefile (from 'Makefile', line 117)
+PREFIX = arm-none-eabi-
+# makefile (from 'Makefile', line 128)
+CPP = $(PREFIX)g++
+# environment
+LOGONSERVER = \\DESKTOP-MMIO2D6
+# makefile (from 'Makefile', line 172)
+UCOS_INCLUDES = -Iucos\bsp -Iucos\ucos_config -Iucos\ucos_config\os3 -Iucos\ucos_cpu -Iucos\ucos_cpu\ARM-Cortex-M4\GNU -Iucos\ucos_lib -Iucos\ucos_port\ARM-Cortex-M\ARMv7-M\GNU -Iucos\ucos_source -Iucos\app -Iucos\bsp\Inc 
+# environment
+EIDE_MSYS = C:\Users\HaoNan\.eide\bin\builder\msys\bin
+# environment
+USERNAME = 17yearoldHaoNan
+# makefile (from 'Makefile', line 140)
+CPU = -mcpu=cortex-m7
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 226)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(USER_CPP:.cpp=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# environment
+USERDOMAIN = DESKTOP-MMIO2D6
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+GCC_VERSION = 11.2
+# makefile (from 'Makefile', line 25)
+OPT = -Og
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 210)
+LDFLAGS = $(MCU) -specs=nosys.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# environment
+NVCUDASAMPLES_ROOT = F:\Deep_learn\CUDA\NVIDIA Corporation\CUDA\v11.1
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-MMIO2D6
+# makefile (from 'Makefile', line 149)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# environment
+NUMBER_OF_PROCESSORS = 6
+# environment
+PUBLIC = C:\Users\Public
+# environment
+!F: = f:\Cubemx\PRJ\ucos_test
+# environment
+NVCUDASAMPLES10_0_ROOT = F:\Deep_learn\CUDA\NVIDIA Corporation\CUDA Samples\v10.0
+# makefile (from 'Makefile', line 134)
+BIN = $(CP) -O binary -S
+# environment
+APPDATA = C:\Users\HaoNan\AppData\Roaming
+# environment
+CUDA_PATH_V11_1 = F:\Deep_learn\CUDA\NVIDIA GPU Computing Toolkit\CUDA\v11.1
+# makefile (from 'Makefile', line 193)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+PYCHARM COMMUNITY EDITION = F:\Deep_learn\pycharm\PyCharm Community Edition 2021.3.3\bin;
+# environment
+EIDE_TOOL_OPENOCD = I:\MCU\Openocd\INSTALL\bin
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 32)
+BUILD_DIR = build
+# environment
+HOME = /home/17yearoldHaoNan
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/HaoNan/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\67c9db44112d2439cff4ff0999cb0352-1.70.2-main-sock
+# environment
+TERM = xterm-256color
+# environment
+DOTNET_CLI_TELEMETRY_OPTOUT = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 105)
+C_SOURCES = Core/Src/stm32h7xx_it.c Core/Src/stm32h7xx_hal_msp.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c Core/Src/system_stm32h7xx.c Core/Src/gpio.c Core/Src/main.c Core/Src/dma.c Core/Src/usart.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c $(UCOS_SOURCES)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 16)
+TARGET = ucos_test
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 108)
+ASM_SOURCES = startup_stm32h750xx.s ucos/ucos_cpu/ARM-Cortex-M4/GNU/cpu_a.s ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU/os_cpu_a.s 
+# makefile (from 'Makefile', line 23)
+DEBUG = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+PROCESSOR_REVISION = 7100
+# makefile (from 'Makefile', line 127)
+CC = $(PREFIX)gcc
+# makefile (from 'Makefile', line 99)
+USER_CPP = ucos/app/app.cpp ucos/app/app_task.cpp ucos/bsp/bsp_uart.cpp 
+# environment
+NVCUDASAMPLES11_1_ROOT = F:\Deep_learn\CUDA\NVIDIA Corporation\CUDA\v11.1
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=143/1024=14%, Rehash=0, Collisions=28/231=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ucos/ucos_config/os3 (device 1919717404, inode 1125899906955397): 6 files, no impossibilities.
+# ucos/app (device 1919717404, inode 1970324837087281): 5 files, no impossibilities.
+# ucos/ucos_cpu (device 1919717404, inode 2251799813797939): 7 files, no impossibilities.
+# ucos/ucos_lib (device 1919717404, inode 1970324837087284): 11 files, no impossibilities.
+# build (device 1919717404, inode 9007199254835649): 68 files, no impossibilities.
+# . (device 1919717404, inode 3659174697350940): 12 files, no impossibilities.
+# ucos/bsp (device 1919717404, inode 1970324837087282): 9 files, no impossibilities.
+# ucos/ucos_cpu/ARM-Cortex-M4/GNU (device 1919717404, inode 1970324837087288): 5 files, no impossibilities.
+# Drivers/STM32H7xx_HAL_Driver/Src (device 1919717404, inode 4785074604188219): 22 files, no impossibilities.
+# Core/Src (device 1919717404, inode 2814749767219093): 9 files, no impossibilities.
+# ucos/ucos_source (device 1919717404, inode 2251799813797942): 22 files, no impossibilities.
+# ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU (device 1919717404, inode 1970324837087311): 5 files, no impossibilities.
+
+# 181 files, no impossibilities in 12 directories.
+
+# Implicit Rules
+
+build/%.o: %.c | build
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/%.o: %.cpp | build
+#  recipe to execute (from 'Makefile', line 233):
+	$(CPP) -c $(CFLAGS) $< -o $@
+
+build/%.o: %.s | build
+#  recipe to execute (from 'Makefile', line 236):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+build/%.hex: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 243):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 246):
+	$(BIN) $< $@	
+	
+
+# 5 implicit rules, 0 (0.0%) terminal.
+# Files
+
+build/stm32h7xx_hal_tim_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_tim_ex'
+#  Last modified 2022-08-27 21:56:48.1488439
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/cpu_core.o: ucos/ucos_cpu/cpu_core.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'cpu_core'
+#  Last modified 2022-08-27 21:56:52.2258212
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_mon.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_mutex.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_flash_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_flash_ex'
+#  Last modified 2022-08-27 21:56:48.1513567
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9632432
+#  File has been updated.
+#  Successfully updated.
+
+build/os_cpu_c.o: ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU/os_cpu_c.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_cpu_c'
+#  Last modified 2022-08-27 21:56:54.3226392
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Core/Src/dma.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-26 22:16:28.5926849
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_dbg.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_exti.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_exti'
+#  Last modified 2022-08-27 21:56:50.1989849
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:16.0182557
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/bsp/bsp_clk.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 21:50:58.0357527
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9414032
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal'
+#  Last modified 2022-08-27 21:56:50.2229902
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_sem.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/lib_str.o: ucos/ucos_lib/lib_str.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'lib_str'
+#  Last modified 2022-08-27 21:56:54.2911275
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_dma.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_dma'
+#  Last modified 2022-08-27 21:56:48.6449993
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_prio.o: ucos/ucos_source/os_prio.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_prio'
+#  Last modified 2022-08-27 21:56:54.7665021
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_time.o: ucos/ucos_source/os_time.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_time'
+#  Last modified 2022-08-27 21:56:56.4195513
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/lib_math.o: ucos/ucos_lib/lib_math.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'lib_math'
+#  Last modified 2022-08-27 21:56:52.7279338
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_time.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/os_q.o: ucos/ucos_source/os_q.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_q'
+#  Last modified 2022-08-27 21:56:56.4005474
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_core.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/bsp/bsp_os.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 17:53:00.9477572
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_uart_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_uart_ex'
+#  Last modified 2022-08-27 21:56:52.2378237
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.956242
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_q.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:16.0172554
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_rcc_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_rcc_ex'
+#  Last modified 2022-08-27 21:56:48.1613514
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_task.o: ucos/ucos_source/os_task.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_task'
+#  Last modified 2022-08-27 21:56:56.3485357
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_prio.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_task.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 20:44:16.0641026
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_tick.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/gpio.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-26 17:39:55.489
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_lib/lib_ascii.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 16:18:59.5983456
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ucos_test.bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/os_cpu_a.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ucos/app/app_task.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 21:42:55.8786266
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_i2c_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_i2c_ex'
+#  Last modified 2022-08-27 21:56:50.2099872
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/bsp_uart.o: ucos/bsp/bsp_uart.cpp | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'bsp_uart'
+#  Last modified 2022-08-27 21:56:56.8042232
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/bsp_uart.o
+# automatic
+# * := bsp_uart
+# automatic
+# < := ucos/bsp/bsp_uart.cpp
+# automatic
+# + := ucos/bsp/bsp_uart.cpp
+# automatic
+# % := 
+# automatic
+# ^ := ucos/bsp/bsp_uart.cpp
+# automatic
+# ? := ucos/bsp/bsp_uart.cpp
+# automatic
+# | := build
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=6/24=25%
+#  recipe to execute (from 'Makefile', line 233):
+	$(CPP) -c $(CFLAGS) $< -o $@
+
+build/bsp_clk.o: ucos/bsp/bsp_clk.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'bsp_clk'
+#  Last modified 2022-08-27 21:56:52.2448257
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+download:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 259):
+	openocd \
+	-f I:/MCU/Openocd/INSTALL/scripts/interface/cmsis-dap.cfg \
+	-f I:/MCU/Openocd/INSTALL/scripts/target/stm32h7x_extern.cfg \
+	-c init \
+	-c halt \
+	-c "flash write_image erase $(BUILD_DIR)/$(TARGET).hex 0x00000000" \
+	-c reset \
+	-c shutdown 
+
+# Not a target:
+ucos/bsp/bsp_cpu.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-16 15:10:28
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_it.o: Core/Src/stm32h7xx_it.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_it'
+#  Last modified 2022-08-27 21:56:48.1663526
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 255):
+	-rm -fR $(BUILD_DIR)
+
+build/os_sem.o: ucos/ucos_source/os_sem.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_sem'
+#  Last modified 2022-08-27 21:56:56.3895445
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/bsp_cpu.o: ucos/bsp/bsp_cpu.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'bsp_cpu'
+#  Last modified 2022-08-27 21:56:52.2438252
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_mutex.o: ucos/ucos_source/os_mutex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_mutex'
+#  Last modified 2022-08-27 21:56:54.7675021
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_mem.o: ucos/ucos_source/os_mem.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_mem'
+#  Last modified 2022-08-27 21:56:54.2861263
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/bsp_led.o: ucos/bsp/bsp_led.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'bsp_led'
+#  Last modified 2022-08-27 21:56:52.2458257
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_rcc.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_rcc'
+#  Last modified 2022-08-27 21:56:48.1633519
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_flag.o: ucos/ucos_source/os_flag.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_flag'
+#  Last modified 2022-08-27 21:56:54.3021301
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_lib/lib_str.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9942503
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.954241
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ucos_test.hex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ucos/ucos_cpu/ARM-Cortex-M4/GNU/cpu_c.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/cpu_a.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9982512
+#  File has been updated.
+#  Successfully updated.
+
+build/lib_mem.o: ucos/ucos_lib/lib_mem.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'lib_mem'
+#  Last modified 2022-08-27 21:56:54.3131325
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_flag.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/os_var.o: ucos/ucos_source/os_var.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_var'
+#  Last modified 2022-08-27 21:56:56.4195513
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Core/Src/system_stm32h7xx.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:11.0422748
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_msp.o: Core/Src/stm32h7xx_hal_msp.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_msp'
+#  Last modified 2022-08-27 21:56:48.1623516
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_tmr.o: ucos/ucos_source/os_tmr.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_tmr'
+#  Last modified 2022-08-27 21:56:56.329531
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9712451
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9642443
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:16.0132545
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_config/os3/os_app_hooks.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9972508
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU/os_cpu_c.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 16:14:11.8402575
+#  File has been updated.
+#  Successfully updated.
+
+all: build/ucos_test.elf build/ucos_test.hex build/ucos_test.bin
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+# Not a target:
+ucos/ucos_source/os_msg.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_cortex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_cortex'
+#  Last modified 2022-08-27 21:56:48.1653526
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_hsem.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_hsem'
+#  Last modified 2022-08-27 21:56:48.1508444
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_var.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-27 21:56:59.6379067
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 249):
+	mkdir $@		
+
+# Not a target:
+Core/Src/stm32h7xx_it.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 20:44:13.237
+#  File has been updated.
+#  Successfully updated.
+
+build/bsp_os.o: ucos/bsp/bsp_os.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'bsp_os'
+#  Last modified 2022-08-27 21:56:52.2578283
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/cpu_c.o: ucos/ucos_cpu/ARM-Cortex-M4/GNU/cpu_c.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'cpu_c'
+#  Last modified 2022-08-27 21:56:52.2218203
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_cfg_app.o: ucos/ucos_source/os_cfg_app.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_cfg_app'
+#  Last modified 2022-08-27 21:56:54.2971288
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/app/app.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 21:42:26.3275906
+#  File has been updated.
+#  Successfully updated.
+
+build/ucos_test.elf: build/stm32h7xx_it.o build/stm32h7xx_hal_msp.o build/stm32h7xx_hal_cortex.o build/stm32h7xx_hal_tim.o build/stm32h7xx_hal_tim_ex.o build/stm32h7xx_hal_rcc.o build/stm32h7xx_hal_rcc_ex.o build/stm32h7xx_hal_flash.o build/stm32h7xx_hal_flash_ex.o build/stm32h7xx_hal_gpio.o build/stm32h7xx_hal_hsem.o build/stm32h7xx_hal_dma.o build/stm32h7xx_hal_dma_ex.o build/stm32h7xx_hal_mdma.o build/stm32h7xx_hal_pwr.o build/stm32h7xx_hal_pwr_ex.o build/stm32h7xx_hal.o build/stm32h7xx_hal_i2c.o build/stm32h7xx_hal_i2c_ex.o build/stm32h7xx_hal_exti.o build/system_stm32h7xx.o build/gpio.o build/main.o build/dma.o build/usart.o build/stm32h7xx_hal_uart.o build/stm32h7xx_hal_uart_ex.o build/bsp_clk.o build/bsp_cpu.o build/bsp_led.o build/bsp_os.o build/os_app_hooks.o build/cpu_core.o build/cpu_c.o build/lib_ascii.o build/lib_math.o build/lib_mem.o build/lib_str.o build/os_cpu_c.o build/os_cfg_app.o build/os_core.o build/os_dbg.o build/os_flag.o build/os_mem.o build/os_mon.o build/os_msg.o build/os_mutex.o build/os_prio.o build/os_q.o build/os_sem.o build/os_stat.o build/os_task.o build/os_time.o build/os_tick.o build/os_tmr.o build/os_var.o build/app.o build/app_task.o build/bsp_uart.o build/startup_stm32h750xx.o build/cpu_a.o build/os_cpu_a.o Makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-27 21:56:59.4968757
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from 'Makefile', line 239):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9602426
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_dma_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_dma_ex'
+#  Last modified 2022-08-27 21:56:50.2237864
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9952505
+#  File has been updated.
+#  Successfully updated.
+
+build/os_dbg.o: ucos/ucos_source/os_dbg.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_dbg'
+#  Last modified 2022-08-27 21:56:54.3131325
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+connect:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 257):
+	openocd -f I:/MCU/Openocd/INSTALL/scripts/interface/cmsis-dap.cfg -f I:/MCU/Openocd/INSTALL/scripts/target/stm32h7x_extern.cfg
+
+build/stm32h7xx_hal_mdma.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_mdma'
+#  Last modified 2022-08-27 21:56:50.1979852
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/bsp/bsp_led.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 16:22:30.8080828
+#  File has been updated.
+#  Successfully updated.
+
+build/os_stat.o: ucos/ucos_source/os_stat.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_stat'
+#  Last modified 2022-08-27 21:56:56.4105492
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_app_hooks.o: ucos/ucos_config/os3/os_app_hooks.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_app_hooks'
+#  Last modified 2022-08-27 21:56:52.2578283
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_gpio.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_gpio'
+#  Last modified 2022-08-27 21:56:48.1513567
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/gpio.o: Core/Src/gpio.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'gpio'
+#  Last modified 2022-08-27 21:56:50.2199896
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_uart.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_uart'
+#  Last modified 2022-08-27 21:56:52.2578283
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/app_task.o: ucos/app/app_task.cpp | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'app_task'
+#  Last modified 2022-08-27 21:56:56.340534
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 233):
+	$(CPP) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_cfg_app.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_stat.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_source/os_tmr.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32h7xx_hal_pwr.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_pwr'
+#  Last modified 2022-08-27 21:56:50.2357854
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_tick.o: ucos/ucos_source/os_tick.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_tick'
+#  Last modified 2022-08-27 21:56:56.340534
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_flash.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_flash'
+#  Last modified 2022-08-27 21:56:48.1428429
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_mon.o: ucos/ucos_source/os_mon.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_mon'
+#  Last modified 2022-08-27 21:56:54.2681224
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_pwr_ex.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_pwr_ex'
+#  Last modified 2022-08-27 21:56:50.1969844
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Core/Src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 20:44:44.5577024
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9464037
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/usart.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 16:48:46.4409491
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_cpu/cpu_core.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/ucos_lib/lib_math.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ucos/bsp/bsp_uart.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-27 22:08:34.5600037
+#  File has been updated.
+#  Successfully updated.
+
+build/dma.o: Core/Src/dma.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'dma'
+#  Last modified 2022-08-27 21:56:50.6848857
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/system_stm32h7xx.o: Core/Src/system_stm32h7xx.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'system_stm32h7xx'
+#  Last modified 2022-08-27 21:56:50.1829814
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9812477
+#  File has been updated.
+#  Successfully updated.
+
+build/app.o: ucos/app/app.cpp | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'app'
+#  Last modified 2022-08-27 21:56:56.4015476
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 233):
+	$(CPP) -c $(CFLAGS) $< -o $@
+
+build/stm32h7xx_hal_tim.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_tim'
+#  Last modified 2022-08-27 21:56:48.1723541
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/os_core.o: ucos/ucos_source/os_core.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_core'
+#  Last modified 2022-08-27 21:56:54.2951288
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:16.0162553
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/startup_stm32h750xx.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/stm32h7xx_hal_i2c.o: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32h7xx_hal_i2c'
+#  Last modified 2022-08-27 21:56:50.70189
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9722455
+#  File has been updated.
+#  Successfully updated.
+
+build/os_msg.o: ucos/ucos_source/os_msg.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'os_msg'
+#  Last modified 2022-08-27 21:56:54.311132
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+build/main.o: Core/Src/main.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-08-27 21:56:50.2219899
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_source/os_mem.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+build/usart.o: Core/Src/usart.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usart'
+#  Last modified 2022-08-27 21:56:52.2608289
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+ucos/ucos_lib/lib_mem.c:
+#  Implicit rule search has been done.
+#  Last modified 2018-04-13 11:04:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/stm32h7xx_hal_msp.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-24 14:52:29.696
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9662437
+#  File has been updated.
+#  Successfully updated.
+
+gdb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 268):
+	arm-none-eabi-gdb $(BUILD_DIR)/$(TARGET).elf
+
+# Not a target:
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 16:56:15.9732457
+#  File has been updated.
+#  Successfully updated.
+
+build/lib_ascii.o: ucos/ucos_lib/lib_ascii.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'lib_ascii'
+#  Last modified 2022-08-27 21:56:52.7279338
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# files hash-table stats:
+# Load=133/1024=13%, Rehash=0, Collisions=127/1309=10%
+# VPATH Search Paths
+
+vpath %.c Core/Src:Drivers/STM32H7xx_HAL_Driver/Src:ucos/bsp:ucos/ucos_config/os3:ucos/ucos_cpu:ucos/ucos_cpu/ARM-Cortex-M4/GNU:ucos/ucos_lib:ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU:ucos/ucos_source
+vpath %.cpp ucos/app:ucos/bsp
+vpath %.s ucos/ucos_cpu/ARM-Cortex-M4/GNU:ucos/ucos_port/ARM-Cortex-M/ARMv7-M/GNU
+
+# 3 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 370 / storage = 6541 B / avg = 17 B
+# current buf: size = 8162 B / used = 6541 B / count = 370 / avg = 17 B
+
+# strcache performance: lookups = 727 / hit rate = 49%
+# hash-table stats:
+# Load=370/8192=5%, Rehash=0, Collisions=21/727=3%
+# Finished Make data base on Sat Aug 27 22:12:18 2022
+
+ 

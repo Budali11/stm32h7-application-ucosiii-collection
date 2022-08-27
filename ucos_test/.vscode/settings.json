@@ -1,0 +1,23 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "stm32h7xx_hal.h": "c",
+        "cpu_core.h": "c",
+        "lib_def.h": "c",
+        "cpu.h": "c",
+        "os.h": "c",
+        "os_cpu.h": "c",
+        "os_type.h": "c",
+        "os_cfg_app.h": "c",
+        "os_cfg.h": "c",
+        "main.h": "c",
+        "usart.h": "c",
+        "cstdio": "cpp",
+        "string": "cpp",
+        "stm32h7xx_ll_usart.h": "c"
+    },
+    "cortex-debug.armToolchainPath": "I:\\MCU\\GNU_tools_ARM\\bin",
+    "cortex-debug.gdbPath": "I:\\MCU\\GNU_tools_ARM\\bin\\arm-none-eabi-gdb.exe",
+    "cortex-debug.openocdPath": "I:\\MCU\\Openocd\\INSTALL\\bin\\openocd.exe",
+    
+}

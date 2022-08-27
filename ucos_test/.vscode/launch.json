@@ -1,0 +1,43 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cortex debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "./build/ucos_test.elf",
+            "cwd": "${workspaceFolder}",
+            "servertype": "openocd",
+            "serverpath": "I:\\MCU\\Openocd\\INSTALL\\bin\\openocd.exe",
+            "armToolchainPath": "I:\\MCU\\GNU_tools_ARM\\bin",
+            "interface": "swd",
+            
+            "gdbTarget": "target extended-remote 127.0.0.1:3333",
+            "device": "STM32H750VB",
+            "svdFile": "STM32H750x.svd",
+            "svdPath": "I:\\MCU\\svds\\",
+            "debuggerArgs": [
+                "build/ucos_test.elf"
+            ],
+            "numberOfProcessors": 1,
+            "objdumpPath": "I:\\MCU\\GNU_tools_ARM\\bin\\arm-none-eabi-objdump.exe",
+            "rtos": "uCOS-III",
+            "runToEntryPoint": "main",
+            "openOCDLaunchCommands": [
+                "-c init",
+                "-c halt",
+                "-c \"flash write_image erase $(BUILD_DIR)/$(TARGET).hex 0x00000000\"",
+                "-c reset",
+                "-c shutdown"
+            ],
+            "configFiles": [
+                "I:\\MCU\\Openocd\\INSTALL\\scripts\\interface\\cmsis-dap.cfg",
+                "I:\\MCU\\Openocd\\INSTALL\\scripts\\target\\stm32h7x_extern.cfg",
+            ],
+
+        }
+    ]
+}

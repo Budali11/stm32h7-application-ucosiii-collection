@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "Core/Inc ",
+                "Drivers/STM32H7xx_HAL_Driver/Inc ",
+                "Drivers/STM32H7xx_HAL_Driver/Inc/Legacy ",
+                "Drivers/CMSIS/Device/ST/STM32H7xx/Include ",
+                "Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER ",
+                "STM32H750xx"
+            ],
+            "compilerPath": "I:\\MCU\\GNU_tools_ARM\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "ucos",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "Core/Inc",
+                "Drivers/STM32H7xx_HAL_Driver/Inc",
+                "Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                "Drivers/CMSIS/Include",
+                "ucos\\bsp",
+                "ucos\\ucos_config",
+                "ucos\\ucos_config\\os3",
+                "ucos\\ucos_cpu",
+                "ucos\\ucos_cpu\\ARM-Cortex-M4\\GNU",
+                "ucos\\ucos_lib",
+                "ucos\\ucos_port\\ARM-Cortex-M\\ARMv7-M\\GNU",
+                "ucos\\ucos_source"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER ",
+                "STM32H750xx"
+            ],
+            "compilerPath": "I:\\MCU\\GNU_tools_ARM\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "Core/Inc",
+                    "Drivers/STM32H7xx_HAL_Driver/Inc",
+                    "Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                    "Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                    "Drivers/CMSIS/Include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
